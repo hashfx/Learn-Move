@@ -20,7 +20,10 @@ Navigate to your project directory and create a new move directory
 + This command creates a Move.toml file and a sources/ directory inside the move directory.
 
 ## Create move module
-+ In move directory, run: ```aptos init --network devnet```
++ In move directory, run: 
+```move
+aptos init --network devnet
+```
 + press <kbd>enter</kbd> when prompted
 + copy the address string in ```account```
 + open the ```Move.toml``` file.

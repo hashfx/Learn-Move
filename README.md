@@ -3,20 +3,26 @@
 ## Setup Guide
 + Make sure python 3.6+ is installed
 + Run in terminal
-    + for Linux/WSL: 
-    ```move
+    + for Linux/WSL:
+    ```shell
     curl -fsSL "https://aptos.dev/scripts/install_cli.py" | python3
     ```
     + with wget: 
-    ```move
+    ```powershell
     wget -qO- "https://aptos.dev/scripts/install_cli.py" | python3
     ```
     + for WindowsNT in Powershell: 
-    ```move
+    ```powershell
     iwr "https://aptos.dev/scripts/install_cli.py" -useb | Select-Object -ExpandProperty Content | python3
     ```
-    + on MacOS: ```brew install aptos```
-    + update Aptos CLI: ```aptos update```
+    + on MacOS:
+    ```shell
+    brew install aptos
+    ```
+    + update Aptos CLI:
+    ```powershell
+    aptos update
+    ```
 
 
 ## Initial Setup
@@ -30,7 +36,7 @@ Navigate to your project directory and create a new move directory
 
 ## Create move module
 + In <kbd>move</kbd> directory, run: 
-```move
+```shell
 aptos init --network devnet
 ```
 + press <kbd>enter</kbd> when prompted

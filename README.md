@@ -10,3 +10,13 @@
     + update Aptos CLI: ```aptos update```
 
 
+## Initial Setup
+Navigate to your project directory and create a new move directory
+
++ create and change current directory to your dapp: ```cd YOUR_DIR_NAME```
++ create **move** directory: ```mkdir move```
++ select move as current directory: ```cd move```
++ init move: ```aptos move init --name YOUR_DAPP_NAME```
++ This command creates a Move.toml file and a sources/ directory inside the move directory.
+
+

@@ -22,6 +22,7 @@ module named_address::my_first_module {
 
 </details>
 
+
 <!-- Move Module Syntax -->
 <details>
 <summary><h2>Module - Syntax</summary>
@@ -38,7 +39,20 @@ address, <kbd>identifier</kbd> is the module name.
 
 
 <details>
-<summary></summary>
+<summary><h2>Data Types</summary>
+
++ ### Unsigned Integer
+    + **u8, u16, u32, u64, u128, u256**
+    + no signed integer
+    + type casting between integers
+        + ```(x as u8)```
+        + ```(y as u16)```
+        + ```(some_numberu16 as u32)```
+
++ ### Address
+    + Used to represent locations (sometimes called accounts) in storage.
+    + A 256-bit (32 byte) identifier in Sui Move (different from Move's 16-byte addresses
+
 </details>
 
 <details>

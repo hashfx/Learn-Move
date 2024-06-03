@@ -1,3 +1,4 @@
+<!-- [PlayList](https://www.youtube.com/playlist?list=PL3id4Z64z2sNED_aH7UYIFFwy6MsvKCN9) -->
 <!-- Directory Structure -->
 <details open>
 <summary><h2>Directory Structure</summary>
@@ -51,12 +52,27 @@ address, <kbd>identifier</kbd> is the module name.
 
 + ### Address
     + Used to represent locations (sometimes called accounts) in storage.
-    + A 256-bit (32 byte) identifier in Sui Move (different from Move's 16-byte addresses
+    + 16-byte address (A 256-bit (32 byte) identifier in Sui Move )
+ 
++ ### Vector
+    + ```Vector<T>``` is the only primitive collection type provided by Move
+
++ ### Type Abilities (4):
+    + **Copy:** value can be copied (or cloned by value)
+    + **Drop** value can be dropped by the end of scope
+    + **Key:** value can be used as a key for global storage operations
+    + **Store:** value can be stored inside global storage
 
 </details>
 
 <details>
-<summary></summary>
+<summary>Functions</summary>
+
+Move functions have three types of visibility:
+  + private(default)
+  + public
+  + public(friend)
+  
 </details>
 
 <details>

@@ -66,7 +66,7 @@ address, <kbd>identifier</kbd> is the module name.
 </details>
 
 <details>
-<summary>Functions</summary>
+<summary><h2>Functions</summary>
 
 Move functions have three types of visibility:
   + private(default)
